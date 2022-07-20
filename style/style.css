@@ -1,3 +1,19 @@
+:root {
+  /* colors */
+  --body-bg: #ffffff;
+  --card-bg: #f2f2f2;
+  --color-gray: #d1d1d1;
+  --font-black: #333333;
+  --font-semi-black: #4e5150;
+  --font-orange: #f2994a;
+  --btn-cta: #f2994a;
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -23,6 +39,7 @@ dd {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
+  font-family: var(--font-primary);
   line-height: 1.5;
 }
 
